@@ -15,6 +15,7 @@ namespace Senelec.WebApp.Data
             Database.EnsureCreated();
         }
 
+
         public DbSet<Senelec.WebApp.Models.Product> Product { get; set; }
     }
 }
